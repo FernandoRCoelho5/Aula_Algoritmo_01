@@ -1,9 +1,10 @@
-var readlineSync = require('readline-sync');
+import ParOuImpar from "./Par_ou_Impar.js";
+import Fibonacci from "./Fibonacci.js";
+import readlineSync from ('readline-sync');
 
-const ParOuImpar = require("./Par_ou_Impar");
-const Fibonacci = require("./Fibonacci");
+let loop = true;
 
-while (true) {
+while (loop === true) {
     console.log("\n Menu");
     console.log("\n 1 - Par ou Impar");
     console.log("\n 2 - Fibonacci");
@@ -22,10 +23,10 @@ while (true) {
             break;
         case "3":
             console.log("\n Saindo...");
-            return;
+            loop = false;
+            break;
         default:
             console.log("\n Opcao invalida, tente novamente.");
-            break;
     }
 
 }

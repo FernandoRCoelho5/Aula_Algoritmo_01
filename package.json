@@ -1,0 +1,24 @@
+{
+  "name": "aula_algoritmo_01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandoRCoelho5/Aula_Algoritmo_01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandoRCoelho5/Aula_Algoritmo_01/issues"
+  },
+  "homepage": "https://github.com/FernandoRCoelho5/Aula_Algoritmo_01#readme"
+}
