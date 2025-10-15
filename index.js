@@ -1,6 +1,6 @@
 import ParOuImpar from "./Par_ou_Impar.js";
 import Fibonacci from "./Fibonacci.js";
-import readlineSync from ('readline-sync');
+import readlineSync from 'readline-sync';
 
 let loop = true;
 
